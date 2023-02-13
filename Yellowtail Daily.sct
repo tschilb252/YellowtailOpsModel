@@ -1,12 +1,12 @@
-# SCT File Created 2/3/2023 2:23 PM
-#  as C:/Users/JLanini/Downloads/Yellowtail Daily.sct
+# SCT File Created 2/13/2023 7:20 AM
+#  as C:/Users/JLanini/OneDrive - DOI/Documents/GitHub/YellowtailOpsModel/Yellowtail Daily.sct
 # Generated using RiverWare Version <RiverWare_Model 9.0.1 Patch>
 # Generated from Model File <Yellowtail.mdl>
 # CADSWES, University of Colorado at Boulder, http://cadswes.colorado.edu/
 #
 SCT 0 0 Version: 20.4
 SCT_PROPERTIES
-  SLOT_ITEM_CNT           85
+  SLOT_ITEM_CNT           88
   PRESIM_TSTEP_CNT        1
   POSTSIM_TSTEP_CNT       0
   TSTEP_AXIS_HORZ         False
@@ -24,8 +24,8 @@ SCT_PROPERTIES
   TSAGG_START_MDAY        1
   TSAGG_START_MONTH       0
 
-  WINDOW_WIDTH            1920
-  WINDOW_HEIGHT           1137
+  WINDOW_WIDTH            2560
+  WINDOW_HEIGHT           1377
   RIGHT_MARGIN            0
   DIAG_WINDOW_HEIGHT      0
 
@@ -326,6 +326,16 @@ SLOT_REF  22
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 86
 
 SLOT_REF  23
+  SLOT_LABEL        "Local Gains"
+  SLOT_MULTILINE    "Local Gains"
+  RW_SLOT_NAME      "Bighorn.Min Local Gains"
+  RW_SLOT_COL_INDEX 0
+  SLOT_SUMFUNC      SLOT_SUMFUNC_AVE 0
+  SLOT_DETAILS_OPEN False
+  N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+
+SLOT_REF  24
   SLOT_LABEL        "Inflow"
   SLOT_MULTILINE    "Inflow"
   RW_SLOT_NAME      "Min Plan.Bighorn_Inflow"
@@ -335,7 +345,7 @@ SLOT_REF  23
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 84
 
-SLOT_REF  24
+SLOT_REF  25
   SLOT_LABEL        "Spring Gains"
   SLOT_MULTILINE    "Spring Gains"
   RW_SLOT_NAME      "Min Plan.Afterbay Spring Gains_Outflow"
@@ -345,10 +355,10 @@ SLOT_REF  24
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 58
 
-SLOT_DIV  25
+SLOT_DIV  26
   SLOT_LABEL        "Release"
 
-SLOT_REF  26
+SLOT_REF  27
   SLOT_LABEL        "River Release Override"
   SLOT_MULTILINE    "River Release Override"
   RW_SLOT_NAME      "Bighorn.River Release Override_Min"
@@ -358,7 +368,7 @@ SLOT_REF  26
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 125
 
-SLOT_REF  27
+SLOT_REF  28
   SLOT_LABEL        "River Release"
   SLOT_MULTILINE    "River Release"
   RW_SLOT_NAME      "Min Plan.06287000 Bighorn River near St Xavier_Gage Outflow"
@@ -368,7 +378,7 @@ SLOT_REF  27
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 112
 
-SLOT_REF  28
+SLOT_REF  29
   SLOT_LABEL        "Release Rationale"
   SLOT_MULTILINE    "Release Rationale"
   RW_SLOT_NAME      "Min Plan.Bighorn_Release Rationale"
@@ -376,9 +386,9 @@ SLOT_REF  28
   SLOT_SUMFUNC      SLOT_SUMFUNC_LAST 0
   SLOT_DETAILS_OPEN False
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 499
-  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 152
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 357
 
-SLOT_REF  29
+SLOT_REF  30
   SLOT_LABEL        "Big Horn Canal Override"
   SLOT_MULTILINE    "Big Horn Canal Override"
   RW_SLOT_NAME      "Bighorn.Min Bighorn Canal"
@@ -388,7 +398,7 @@ SLOT_REF  29
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 95
 
-SLOT_REF  30
+SLOT_REF  31
   SLOT_LABEL        "Big Horn Canal Diversion"
   SLOT_MULTILINE    "Big Horn Canal Diversion"
   RW_SLOT_NAME      "Min Plan.Yellowtail Afterbay_Diversion"
@@ -398,10 +408,10 @@ SLOT_REF  30
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 85
 
-SLOT_DIV  31
+SLOT_DIV  32
   SLOT_LABEL        "Storage"
 
-SLOT_REF  32
+SLOT_REF  33
   SLOT_LABEL        "Pool Elevation"
   SLOT_MULTILINE    "Pool Elevation"
   RW_SLOT_NAME      "Min Plan.Bighorn_Pool Elevation"
@@ -411,7 +421,7 @@ SLOT_REF  32
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 85
 
-SLOT_REF  33
+SLOT_REF  34
   SLOT_LABEL        "Storage"
   SLOT_MULTILINE    "Storage"
   RW_SLOT_NAME      "Min Plan.Bighorn_Storage"
@@ -419,9 +429,9 @@ SLOT_REF  33
   SLOT_SUMFUNC      SLOT_SUMFUNC_LAST 0
   SLOT_DETAILS_OPEN False
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
-  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 80
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 102
 
-SLOT_REF  34
+SLOT_REF  35
   SLOT_LABEL        "Rule Curve"
   SLOT_MULTILINE    "Rule Curve"
   RW_SLOT_NAME      "Snapshots for Plotting.MinPlanRuleCurve"
@@ -431,10 +441,10 @@ SLOT_REF  34
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 79
 
-SLOT_DIV  35
+SLOT_DIV  36
   SLOT_LABEL        "Power"
 
-SLOT_REF  36
+SLOT_REF  37
   SLOT_LABEL        "Number of Units Generating"
   SLOT_MULTILINE    "Number of Units Generating"
   RW_SLOT_NAME      "Min Plan.Bighorn_Number of Units Generating"
@@ -444,7 +454,7 @@ SLOT_REF  36
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 62
 
-SLOT_REF  37
+SLOT_REF  38
   SLOT_LABEL        "Plant Power Limit"
   SLOT_MULTILINE    "Plant Power Limit"
   RW_SLOT_NAME      "Bighorn.Plant Power Limit Min"
@@ -454,7 +464,7 @@ SLOT_REF  37
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 67
 
-SLOT_REF  38
+SLOT_REF  39
   SLOT_LABEL        "Energy"
   SLOT_MULTILINE    "Energy"
   RW_SLOT_NAME      "Min Plan.Bighorn_Energy"
@@ -464,7 +474,7 @@ SLOT_REF  38
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
 
-SLOT_REF  39
+SLOT_REF  40
   SLOT_LABEL        "Turbine Release"
   SLOT_MULTILINE    "Turbine Release"
   RW_SLOT_NAME      "Min Plan.Bighorn_Turbine Release"
@@ -474,7 +484,7 @@ SLOT_REF  39
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
 
-SLOT_REF  40
+SLOT_REF  41
   SLOT_LABEL        "Power"
   SLOT_MULTILINE    "Power"
   RW_SLOT_NAME      "Min Plan.Bighorn_Power"
@@ -484,13 +494,13 @@ SLOT_REF  40
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
 
-TAB_DIV   41
+TAB_DIV   42
   SLOT_LABEL        "Median Plan"
 
-SLOT_DIV  42
+SLOT_DIV  43
   SLOT_LABEL        "Inflow"
 
-SLOT_REF  43
+SLOT_REF  44
   SLOT_LABEL        "Buffalo Bill Release"
   SLOT_MULTILINE    "Buffalo Bill Release"
   RW_SLOT_NAME      "Bighorn.Most BBR Release"
@@ -500,7 +510,7 @@ SLOT_REF  43
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 97
 
-SLOT_REF  44
+SLOT_REF  45
   SLOT_LABEL        "Boysen Release"
   SLOT_MULTILINE    "Boysen Release"
   RW_SLOT_NAME      "Bighorn.Most BOYR Release"
@@ -510,7 +520,17 @@ SLOT_REF  44
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 85
 
-SLOT_REF  45
+SLOT_REF  46
+  SLOT_LABEL        "Local Gains"
+  SLOT_MULTILINE    "Local Gains"
+  RW_SLOT_NAME      "Bighorn.Most Local Gains"
+  RW_SLOT_COL_INDEX 0
+  SLOT_SUMFUNC      SLOT_SUMFUNC_AVE 0
+  SLOT_DETAILS_OPEN False
+  N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+
+SLOT_REF  47
   SLOT_LABEL        "Inflow"
   SLOT_MULTILINE    "Inflow"
   RW_SLOT_NAME      "Most Plan.Bighorn_Inflow"
@@ -520,7 +540,7 @@ SLOT_REF  45
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 74
 
-SLOT_REF  46
+SLOT_REF  48
   SLOT_LABEL        "Spring Gains"
   SLOT_MULTILINE    "Spring Gains"
   RW_SLOT_NAME      "Most Plan.Afterbay Spring Gains_Outflow"
@@ -530,10 +550,10 @@ SLOT_REF  46
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 66
 
-SLOT_DIV  47
+SLOT_DIV  49
   SLOT_LABEL        "Release"
 
-SLOT_REF  48
+SLOT_REF  50
   SLOT_LABEL        "River Release Override"
   SLOT_MULTILINE    "River Release Override"
   RW_SLOT_NAME      "Bighorn.River Release Override_Most"
@@ -543,7 +563,7 @@ SLOT_REF  48
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 116
 
-SLOT_REF  49
+SLOT_REF  51
   SLOT_LABEL        "River Release"
   SLOT_MULTILINE    "River Release"
   RW_SLOT_NAME      "Most Plan.06287000 Bighorn River near St Xavier_Gage Outflow"
@@ -553,7 +573,7 @@ SLOT_REF  49
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 87
 
-SLOT_REF  50
+SLOT_REF  52
   SLOT_LABEL        "Release Rationale"
   SLOT_MULTILINE    "Release Rationale"
   RW_SLOT_NAME      "Most Plan.Bighorn_Release Rationale"
@@ -563,7 +583,7 @@ SLOT_REF  50
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 640
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 108
 
-SLOT_REF  51
+SLOT_REF  53
   SLOT_LABEL        "Big Horn Canal Override"
   SLOT_MULTILINE    "Big Horn Canal Override"
   RW_SLOT_NAME      "Bighorn.Most Bighorn Canal"
@@ -573,7 +593,7 @@ SLOT_REF  51
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
 
-SLOT_REF  52
+SLOT_REF  54
   SLOT_LABEL        "Big Horn Canal Diversion"
   SLOT_MULTILINE    "Big Horn Canal Diversion"
   RW_SLOT_NAME      "Most Plan.Yellowtail Afterbay_Diversion"
@@ -583,10 +603,10 @@ SLOT_REF  52
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 126
 
-SLOT_DIV  53
+SLOT_DIV  55
   SLOT_LABEL        "Storage"
 
-SLOT_REF  54
+SLOT_REF  56
   SLOT_LABEL        "Pool Elevation"
   SLOT_MULTILINE    "Pool Elevation"
   RW_SLOT_NAME      "Most Plan.Bighorn_Pool Elevation"
@@ -596,7 +616,7 @@ SLOT_REF  54
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 82
 
-SLOT_REF  55
+SLOT_REF  57
   SLOT_LABEL        "Storage"
   SLOT_MULTILINE    "Storage"
   RW_SLOT_NAME      "Most Plan.Bighorn_Storage"
@@ -606,7 +626,7 @@ SLOT_REF  55
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 97
 
-SLOT_REF  56
+SLOT_REF  58
   SLOT_LABEL        "Rule Curve"
   SLOT_MULTILINE    "Rule Curve"
   RW_SLOT_NAME      "Snapshots for Plotting.MostPlanRuleCurve"
@@ -616,10 +636,10 @@ SLOT_REF  56
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 96
 
-SLOT_DIV  57
+SLOT_DIV  59
   SLOT_LABEL        "Power"
 
-SLOT_REF  58
+SLOT_REF  60
   SLOT_LABEL        "Number of Units Generating"
   SLOT_MULTILINE    "Number of Units Generating"
   RW_SLOT_NAME      "Most Plan.Bighorn_Number of Units Generating"
@@ -629,7 +649,7 @@ SLOT_REF  58
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 86
 
-SLOT_REF  59
+SLOT_REF  61
   SLOT_LABEL        "Plant Power Limit"
   SLOT_MULTILINE    "Plant Power Limit"
   RW_SLOT_NAME      "Bighorn.Plant Power Limit Most"
@@ -639,7 +659,7 @@ SLOT_REF  59
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 83
 
-SLOT_REF  60
+SLOT_REF  62
   SLOT_LABEL        "Energy"
   SLOT_MULTILINE    "Energy"
   RW_SLOT_NAME      "Most Plan.Bighorn_Energy"
@@ -649,7 +669,7 @@ SLOT_REF  60
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 90
 
-SLOT_REF  61
+SLOT_REF  63
   SLOT_LABEL        "Turbine Release"
   SLOT_MULTILINE    "Turbine Release"
   RW_SLOT_NAME      "Most Plan.Bighorn_Turbine Release"
@@ -659,7 +679,7 @@ SLOT_REF  61
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
 
-SLOT_REF  62
+SLOT_REF  64
   SLOT_LABEL        "Power"
   SLOT_MULTILINE    "Power"
   RW_SLOT_NAME      "Most Plan.Bighorn_Power"
@@ -669,13 +689,13 @@ SLOT_REF  62
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
 
-TAB_DIV   63
+TAB_DIV   65
   SLOT_LABEL        "Maximum Plan"
 
-SLOT_DIV  64
+SLOT_DIV  66
   SLOT_LABEL        "Inflow"
 
-SLOT_REF  65
+SLOT_REF  67
   SLOT_LABEL        "Buffalo Bill Release"
   SLOT_MULTILINE    "Buffalo Bill Release"
   RW_SLOT_NAME      "Bighorn.Max BBR Release"
@@ -685,7 +705,7 @@ SLOT_REF  65
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 98
 
-SLOT_REF  66
+SLOT_REF  68
   SLOT_LABEL        "Boysen Release"
   SLOT_MULTILINE    "Boysen Release"
   RW_SLOT_NAME      "Bighorn.Max BOYR Release"
@@ -695,7 +715,17 @@ SLOT_REF  66
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 85
 
-SLOT_REF  67
+SLOT_REF  69
+  SLOT_LABEL        "Local Gains"
+  SLOT_MULTILINE    "Local Gains"
+  RW_SLOT_NAME      "Bighorn.Max Local Gains"
+  RW_SLOT_COL_INDEX 0
+  SLOT_SUMFUNC      SLOT_SUMFUNC_AVE 0
+  SLOT_DETAILS_OPEN False
+  N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
+
+SLOT_REF  70
   SLOT_LABEL        "Inflow"
   SLOT_MULTILINE    "Inflow"
   RW_SLOT_NAME      "Max Plan.Bighorn_Inflow"
@@ -705,7 +735,7 @@ SLOT_REF  67
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 134
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 70
 
-SLOT_REF  68
+SLOT_REF  71
   SLOT_LABEL        "Spring Gains"
   SLOT_MULTILINE    "Spring Gains"
   RW_SLOT_NAME      "Max Plan.Afterbay Spring Gains_Outflow"
@@ -715,10 +745,10 @@ SLOT_REF  68
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 64
 
-SLOT_DIV  69
+SLOT_DIV  72
   SLOT_LABEL        "Release"
 
-SLOT_REF  70
+SLOT_REF  73
   SLOT_LABEL        "River Release Override"
   SLOT_MULTILINE    "River Release Override"
   RW_SLOT_NAME      "Bighorn.River Release Override_Max"
@@ -728,7 +758,7 @@ SLOT_REF  70
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
 
-SLOT_REF  71
+SLOT_REF  74
   SLOT_LABEL        "River Release"
   SLOT_MULTILINE    "River Release"
   RW_SLOT_NAME      "Max Plan.06287000 Bighorn River near St Xavier_Gage Outflow"
@@ -738,7 +768,7 @@ SLOT_REF  71
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 134
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 90
 
-SLOT_REF  72
+SLOT_REF  75
   SLOT_LABEL        "Release Rationale"
   SLOT_MULTILINE    "Release Rationale"
   RW_SLOT_NAME      "Max Plan.Bighorn_Release Rationale"
@@ -746,9 +776,9 @@ SLOT_REF  72
   SLOT_SUMFUNC      SLOT_SUMFUNC_LAST 0
   SLOT_DETAILS_OPEN False
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 1340
-  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 191
+  A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 544
 
-SLOT_REF  73
+SLOT_REF  76
   SLOT_LABEL        "Big Horn Canal Override"
   SLOT_MULTILINE    "Big Horn Canal Override"
   RW_SLOT_NAME      "Bighorn.Max Bighorn Canal"
@@ -758,7 +788,7 @@ SLOT_REF  73
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 86
 
-SLOT_REF  74
+SLOT_REF  77
   SLOT_LABEL        "Big Horn Canal Diversion"
   SLOT_MULTILINE    "Big Horn Canal Diversion"
   RW_SLOT_NAME      "Max Plan.Yellowtail Afterbay_Diversion"
@@ -768,10 +798,10 @@ SLOT_REF  74
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 89
 
-SLOT_DIV  75
+SLOT_DIV  78
   SLOT_LABEL        "Storage"
 
-SLOT_REF  76
+SLOT_REF  79
   SLOT_LABEL        "Pool Elevation"
   SLOT_MULTILINE    "Pool Elevation"
   RW_SLOT_NAME      "Max Plan.Bighorn_Pool Elevation"
@@ -781,7 +811,7 @@ SLOT_REF  76
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 98
 
-SLOT_REF  77
+SLOT_REF  80
   SLOT_LABEL        "Storage"
   SLOT_MULTILINE    "Storage"
   RW_SLOT_NAME      "Max Plan.Bighorn_Storage"
@@ -791,7 +821,7 @@ SLOT_REF  77
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 174
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 108
 
-SLOT_REF  78
+SLOT_REF  81
   SLOT_LABEL        "Rule Curve"
   SLOT_MULTILINE    "Rule Curve"
   RW_SLOT_NAME      "Snapshots for Plotting.MaxPlanRuleCurve"
@@ -801,10 +831,10 @@ SLOT_REF  78
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 98
 
-SLOT_DIV  79
+SLOT_DIV  82
   SLOT_LABEL        "Power"
 
-SLOT_REF  80
+SLOT_REF  83
   SLOT_LABEL        "Number of Units Generating"
   SLOT_MULTILINE    "Number of Units Generating"
   RW_SLOT_NAME      "Max Plan.Bighorn_Number of Units Generating"
@@ -814,7 +844,7 @@ SLOT_REF  80
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 71
 
-SLOT_REF  81
+SLOT_REF  84
   SLOT_LABEL        "Plant Power Limit"
   SLOT_MULTILINE    "Plant Power Limit"
   RW_SLOT_NAME      "Bighorn.Plant Power Limit Max"
@@ -824,7 +854,7 @@ SLOT_REF  81
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 120
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 72
 
-SLOT_REF  82
+SLOT_REF  85
   SLOT_LABEL        "Energy"
   SLOT_MULTILINE    "Energy"
   RW_SLOT_NAME      "Max Plan.Bighorn_Energy"
@@ -834,7 +864,7 @@ SLOT_REF  82
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 77
 
-SLOT_REF  83
+SLOT_REF  86
   SLOT_LABEL        "Turbine Release"
   SLOT_MULTILINE    "Turbine Release"
   RW_SLOT_NAME      "Max Plan.Bighorn_Turbine Release"
@@ -844,7 +874,7 @@ SLOT_REF  83
   N_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
   A_SLOT_COL_WIDTH  COLFIT_METHOD_MANUAL 121
 
-SLOT_REF  84
+SLOT_REF  87
   SLOT_LABEL        "Power"
   SLOT_MULTILINE    "Power"
   RW_SLOT_NAME      "Max Plan.Bighorn_Power"
