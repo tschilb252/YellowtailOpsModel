@@ -1,6 +1,6 @@
-# SCT File Created 2/13/2023 7:20 AM
+# SCT File Created 2/16/2023 1:12 PM
 #  as C:/Users/JLanini/OneDrive - DOI/Documents/GitHub/YellowtailOpsModel/Yellowtail Daily.sct
-# Generated using RiverWare Version <RiverWare_Model 9.0.1 Patch>
+# Generated using RiverWare Version <RiverWare_Model 9.0.2 Patch>
 # Generated from Model File <Yellowtail.mdl>
 # CADSWES, University of Colorado at Boulder, http://cadswes.colorado.edu/
 #
@@ -24,8 +24,8 @@ SCT_PROPERTIES
   TSAGG_START_MDAY        1
   TSAGG_START_MONTH       0
 
-  WINDOW_WIDTH            2560
-  WINDOW_HEIGHT           1377
+  WINDOW_WIDTH            1920
+  WINDOW_HEIGHT           1137
   RIGHT_MARGIN            0
   DIAG_WINDOW_HEIGHT      0
 
@@ -888,7 +888,7 @@ PANEL_SLOT "Bighorn.Afterbay Spring Gains" -1
 PANEL_SLOT "Bighorn.Monthly Plan Forecast Switch" -1
 PANEL_SLOT "Bighorn.DaysBeforeMinRC" -1
 PANEL_SLOT "Bighorn.Ramping Rates" -1
-PANEL_SLOT "Bighorn.Max Local Gains" -1
-PANEL_SLOT "Bighorn.Most Local Gains" -1
-PANEL_SLOT "Bighorn.Min Local Gains" -1
+PANEL_SLOT "Bighorn.Max Local Gains Volume" -1
+PANEL_SLOT "Bighorn.Most Local Gains Volume" -1
+PANEL_SLOT "Bighorn.Min Local Gains Volume" -1
 # SCT File End
