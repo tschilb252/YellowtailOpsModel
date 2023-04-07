@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<OptScreensEfficiencyTableDoc HeadUOM="ft" PowerUOM="MW" FlowUOM="cfs" EffUOM="%">
+  <Unit Name="YT_Unit 1" MinHd="370" MaxHd="470" CountHd="21">
+    <SmoothCurves Head="370" MinPower="0" MaxPower="53" CountPower="28">
+      <DataPoint Power="0" Flow="323.1" Eff="0" />
+      <DataPoint Power="2" Flow="350.94" Eff="18.21" />
+      <DataPoint Power="4" Flow="385.23" Eff="33.17" />
+      <DataPoint Power="6" Flow="425.05" Eff="45.1" />
+      <DataPoint Power="8" Flow="469.59" Eff="54.43" />
+      <DataPoint Power="10" Flow="518.09" Eff="61.66" />
+      <DataPoint Power="12" Flow="569.88" Eff="67.27" />
+      <DataPoint Power="14" Flow="624.35" Eff="71.64" />
+      <DataPoint Power="16" Flow="681" Eff="75.06" />
+      <DataPoint Power="18" Flow="739.36" Eff="77.78" />
+      <DataPoint Power="20" Flow="799.09" Eff="79.96" />
+      <DataPoint Power="22" Flow="859.87" Eff="81.74" />
+      <DataPoint Power="24" Flow="921.5" Eff="83.2" />
+      <DataPoint Power="26" Flow="983.85" Eff="84.43" />
+      <DataPoint Power="28" Flow="1046.84" Eff="85.45" />
+      <DataPoint Power="30" Flow="1110.49" Eff="86.3" />
+      <DataPoint Power="32" Flow="1174.89" Eff="87.01" />
+      <DataPoint Power="34" Flow="1240.22" Eff="87.58" />
+      <DataPoint Power="36" Flow="1306.71" Eff="88.01" />
+      <DataPoint Power="38" Flow="1374.69" Eff="88.31" />
+      <DataPoint Power="40" Flow="1444.56" Eff="88.46" />
+      <DataPoint Power="42" Flow="1516.78" Eff="88.46" />
+      <DataPoint Power="44" Flow="1591.91" Eff="88.3" />
+      <DataPoint Power="46" Flow="1670.57" Eff="87.97" />
+      <DataPoint Power="48" Flow="1753.48" Eff="87.45" />
+      <DataPoint Power="50" Flow="1841.4" Eff="86.75" />
+      <DataPoint Power="52" Flow="1935.21" Eff="85.84" />
+      <DataPoint Power="53" Flow="1984.6" Eff="85.32" />
+    </SmoothCurves>
+    <Equation Head="370" MinPower="0" MaxPower="53" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="323.1026678" />
+      <Coefficient Name="B2" Value="12.14876156" />
+      <Coefficient Name="B3" Value="0.927372949100002" />
+      <Coefficient Name="B4" Value="-0.02123065782" />
+      <Coefficient Name="B5" Value="0.0001994019974" />
+      <Coefficient Name="R2" Value="1" />
+    </Equation>
+    <SmoothCurves Head="375" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="336.17" Eff="0" />
+      <DataPoint Power="2" Flow="361.1" Eff="17.46" />
+      <DataPoint Power="4" Flow="392.89" Eff="32.09" />
+      <DataPoint Power="6" Flow="430.58" Eff="43.92" />
+      <DataPoint Power="8" Flow="473.3" Eff="53.28" />
+      <DataPoint Power="10" Flow="520.26" Eff="60.59" />
+      <DataPoint Power="12" Flow="570.74" Eff="66.27" />
+      <DataPoint Power="14" Flow="624.11" Eff="70.71" />
+      <DataPoint Power="16" Flow="679.82" Eff="74.19" />
+      <DataPoint Power="18" Flow="737.39" Eff="76.94" />
+      <DataPoint Power="20" Flow="796.42" Eff="79.16" />
+      <DataPoint Power="22" Flow="856.59" Eff="80.96" />
+      <DataPoint Power="24" Flow="917.68" Eff="82.44" />
+      <DataPoint Power="26" Flow="979.53" Eff="83.67" />
+      <DataPoint Power="28" Flow="1042.05" Eff="84.7" />
+      <DataPoint Power="30" Flow="1105.25" Eff="85.56" />
+      <DataPoint Power="32" Flow="1169.22" Eff="86.27" />
+      <DataPoint Power="34" Flow="1234.11" Eff="86.84" />
+      <DataPoint Power="36" Flow="1300.16" Eff="87.28" />
+      <DataPoint Power="38" Flow="1367.7" Eff="87.58" />
+      <DataPoint Power="40" Flow="1437.13" Eff="87.73" />
+      <DataPoint Power="42" Flow="1508.92" Eff="87.74" />
+      <DataPoint Power="44" Flow="1583.64" Eff="87.58" />
+      <DataPoint Power="46" Flow="1661.93" Eff="87.25" />
+      <DataPoint Power="48" Flow="1744.5" Eff="86.73" />
+      <DataPoint Power="50" Flow="1832.16" Eff="86.02" />
+      <DataPoint Power="52" Flow="1925.77" Eff="85.11" />
+      <DataPoint Power="54" Flow="2026.31" Eff="84" />
+    </SmoothCurves>
+    <Equation Head="375" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="336.167722004256" />
+      <Coefficient Name="B2" Value="10.5822348705311" />
+      <Coefficient Name="B3" Value="0.985320056899343" />
+      <Coefficient Name="B4" Value="-0.0223364694457542" />
+      <Coefficient Name="B5" Value="0.000207301536787461" />
+      <Coefficient Name="R2" Value="0.999998178580958" />
+    </Equation>
+    <SmoothCurves Head="380" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="339.5" Eff="0" />
+      <DataPoint Power="2" Flow="362.74" Eff="17.15" />
+      <DataPoint Power="4" Flow="392.96" Eff="31.66" />
+      <DataPoint Power="6" Flow="429.2" Eff="43.48" />
+      <DataPoint Power="8" Flow="470.59" Eff="52.88" />
+      <DataPoint Power="10" Flow="516.33" Eff="60.24" />
+      <DataPoint Power="12" Flow="565.71" Eff="65.98" />
+      <DataPoint Power="14" Flow="618.07" Eff="70.46" />
+      <DataPoint Power="16" Flow="672.86" Eff="73.97" />
+      <DataPoint Power="18" Flow="729.59" Eff="76.74" />
+      <DataPoint Power="20" Flow="787.84" Eff="78.97" />
+      <DataPoint Power="22" Flow="847.29" Eff="80.77" />
+      <DataPoint Power="24" Flow="907.68" Eff="82.25" />
+      <DataPoint Power="26" Flow="968.84" Eff="83.48" />
+      <DataPoint Power="28" Flow="1030.66" Eff="84.51" />
+      <DataPoint Power="30" Flow="1093.11" Eff="85.37" />
+      <DataPoint Power="32" Flow="1156.27" Eff="86.09" />
+      <DataPoint Power="34" Flow="1220.25" Eff="86.67" />
+      <DataPoint Power="36" Flow="1285.27" Eff="87.13" />
+      <DataPoint Power="38" Flow="1351.61" Eff="87.45" />
+      <DataPoint Power="40" Flow="1419.65" Eff="87.64" />
+      <DataPoint Power="42" Flow="1489.82" Eff="87.69" />
+      <DataPoint Power="44" Flow="1562.64" Eff="87.59" />
+      <DataPoint Power="46" Flow="1638.7" Eff="87.32" />
+      <DataPoint Power="48" Flow="1718.7" Eff="86.87" />
+      <DataPoint Power="50" Flow="1803.37" Eff="86.24" />
+      <DataPoint Power="52" Flow="1893.54" Eff="85.42" />
+      <DataPoint Power="54" Flow="1990.13" Eff="84.4" />
+    </SmoothCurves>
+    <Equation Head="380" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="339.502197190421" />
+      <Coefficient Name="B2" Value="9.70767374405617" />
+      <Coefficient Name="B3" Value="0.999929072537802" />
+      <Coefficient Name="B4" Value="-0.0222581723859819" />
+      <Coefficient Name="B5" Value="0.000201748509215908" />
+      <Coefficient Name="R2" Value="0.999997289259408" />
+    </Equation>
+    <SmoothCurves Head="385" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="334.39" Eff="0" />
+      <DataPoint Power="2" Flow="359.27" Eff="17.09" />
+      <DataPoint Power="4" Flow="390.49" Eff="31.45" />
+      <DataPoint Power="6" Flow="427.21" Eff="43.12" />
+      <DataPoint Power="8" Flow="468.65" Eff="52.41" />
+      <DataPoint Power="10" Flow="514.1" Eff="59.72" />
+      <DataPoint Power="12" Flow="562.93" Eff="65.45" />
+      <DataPoint Power="14" Flow="614.55" Eff="69.94" />
+      <DataPoint Power="16" Flow="668.45" Eff="73.49" />
+      <DataPoint Power="18" Flow="724.21" Eff="76.31" />
+      <DataPoint Power="20" Flow="781.45" Eff="78.58" />
+      <DataPoint Power="22" Flow="839.86" Eff="80.42" />
+      <DataPoint Power="24" Flow="899.2" Eff="81.95" />
+      <DataPoint Power="26" Flow="959.32" Eff="83.21" />
+      <DataPoint Power="28" Flow="1020.1" Eff="84.27" />
+      <DataPoint Power="30" Flow="1081.51" Eff="85.16" />
+      <DataPoint Power="32" Flow="1143.6" Eff="85.91" />
+      <DataPoint Power="34" Flow="1206.46" Eff="86.52" />
+      <DataPoint Power="36" Flow="1270.26" Eff="87.01" />
+      <DataPoint Power="38" Flow="1335.24" Eff="87.38" />
+      <DataPoint Power="40" Flow="1401.7" Eff="87.61" />
+      <DataPoint Power="42" Flow="1470.03" Eff="87.72" />
+      <DataPoint Power="44" Flow="1540.65" Eff="87.68" />
+      <DataPoint Power="46" Flow="1614.08" Eff="87.5" />
+      <DataPoint Power="48" Flow="1690.89" Eff="87.16" />
+      <DataPoint Power="50" Flow="1771.73" Eff="86.64" />
+      <DataPoint Power="52" Flow="1857.31" Eff="85.96" />
+      <DataPoint Power="54" Flow="1948.4" Eff="85.09" />
+    </SmoothCurves>
+    <Equation Head="385" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="334.393248043446" />
+      <Coefficient Name="B2" Value="10.7007221431294" />
+      <Coefficient Name="B3" Value="0.90668984008984" />
+      <Coefficient Name="B4" Value="-0.0197307033086884" />
+      <Coefficient Name="B5" Value="0.000176306013286424" />
+      <Coefficient Name="R2" Value="0.999997816727321" />
+    </Equation>
+    <SmoothCurves Head="390" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="332.29" Eff="0" />
+      <DataPoint Power="2" Flow="357.91" Eff="16.94" />
+      <DataPoint Power="4" Flow="389.45" Eff="31.13" />
+      <DataPoint Power="6" Flow="426.12" Eff="42.68" />
+      <DataPoint Power="8" Flow="467.22" Eff="51.9" />
+      <DataPoint Power="10" Flow="512.11" Eff="59.18" />
+      <DataPoint Power="12" Flow="560.21" Eff="64.92" />
+      <DataPoint Power="14" Flow="610.97" Eff="69.45" />
+      <DataPoint Power="16" Flow="663.95" Eff="73.04" />
+      <DataPoint Power="18" Flow="718.73" Eff="75.91" />
+      <DataPoint Power="20" Flow="774.97" Eff="78.22" />
+      <DataPoint Power="22" Flow="832.38" Eff="80.11" />
+      <DataPoint Power="24" Flow="890.74" Eff="81.66" />
+      <DataPoint Power="26" Flow="949.88" Eff="82.96" />
+      <DataPoint Power="28" Flow="1009.7" Eff="84.05" />
+      <DataPoint Power="30" Flow="1070.16" Eff="84.96" />
+      <DataPoint Power="32" Flow="1131.26" Eff="85.73" />
+      <DataPoint Power="34" Flow="1193.09" Eff="86.37" />
+      <DataPoint Power="36" Flow="1255.77" Eff="86.89" />
+      <DataPoint Power="38" Flow="1319.52" Eff="87.28" />
+      <DataPoint Power="40" Flow="1384.57" Eff="87.56" />
+      <DataPoint Power="42" Flow="1451.25" Eff="87.71" />
+      <DataPoint Power="44" Flow="1519.93" Eff="87.74" />
+      <DataPoint Power="46" Flow="1591.05" Eff="87.63" />
+      <DataPoint Power="48" Flow="1665.11" Eff="87.37" />
+      <DataPoint Power="50" Flow="1742.66" Eff="86.96" />
+      <DataPoint Power="52" Flow="1824.32" Eff="86.39" />
+      <DataPoint Power="54" Flow="1910.77" Eff="85.65" />
+    </SmoothCurves>
+    <Equation Head="390" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="332.286041024153" />
+      <Coefficient Name="B2" Value="11.20223994485" />
+      <Coefficient Name="B3" Value="0.840817016777456" />
+      <Coefficient Name="B4" Value="-0.0178426859021272" />
+      <Coefficient Name="B5" Value="0.000156569425372835" />
+      <Coefficient Name="R2" Value="0.999998189940808" />
+    </Equation>
+    <SmoothCurves Head="395" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="330.17" Eff="0" />
+      <DataPoint Power="2" Flow="356.51" Eff="16.79" />
+      <DataPoint Power="4" Flow="388.35" Eff="30.82" />
+      <DataPoint Power="6" Flow="424.98" Eff="42.25" />
+      <DataPoint Power="8" Flow="465.76" Eff="51.4" />
+      <DataPoint Power="10" Flow="510.12" Eff="58.66" />
+      <DataPoint Power="12" Flow="557.51" Eff="64.41" />
+      <DataPoint Power="14" Flow="607.45" Eff="68.97" />
+      <DataPoint Power="16" Flow="659.53" Eff="72.6" />
+      <DataPoint Power="18" Flow="713.36" Eff="75.51" />
+      <DataPoint Power="20" Flow="768.63" Eff="77.87" />
+      <DataPoint Power="22" Flow="825.07" Eff="79.79" />
+      <DataPoint Power="24" Flow="882.47" Eff="81.38" />
+      <DataPoint Power="26" Flow="940.66" Eff="82.71" />
+      <DataPoint Power="28" Flow="999.55" Eff="83.83" />
+      <DataPoint Power="30" Flow="1059.07" Eff="84.77" />
+      <DataPoint Power="32" Flow="1119.22" Eff="85.56" />
+      <DataPoint Power="34" Flow="1180.06" Eff="86.22" />
+      <DataPoint Power="36" Flow="1241.7" Eff="86.76" />
+      <DataPoint Power="38" Flow="1304.29" Eff="87.19" />
+      <DataPoint Power="40" Flow="1368.05" Eff="87.5" />
+      <DataPoint Power="42" Flow="1433.24" Eff="87.69" />
+      <DataPoint Power="44" Flow="1500.18" Eff="87.77" />
+      <DataPoint Power="46" Flow="1569.24" Eff="87.72" />
+      <DataPoint Power="48" Flow="1640.86" Eff="87.54" />
+      <DataPoint Power="50" Flow="1715.5" Eff="87.22" />
+      <DataPoint Power="52" Flow="1793.7" Eff="86.75" />
+      <DataPoint Power="54" Flow="1876.04" Eff="86.14" />
+    </SmoothCurves>
+    <Equation Head="395" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="330.167235269781" />
+      <Coefficient Name="B2" Value="11.6796437204938" />
+      <Coefficient Name="B3" Value="0.778616750411803" />
+      <Coefficient Name="B4" Value="-0.0160952970740549" />
+      <Coefficient Name="B5" Value="0.000138674769390157" />
+      <Coefficient Name="R2" Value="0.999998363436089" />
+    </Equation>
+    <SmoothCurves Head="400" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="328.1" Eff="0" />
+      <DataPoint Power="2" Flow="355.05" Eff="16.65" />
+      <DataPoint Power="4" Flow="387.14" Eff="30.53" />
+      <DataPoint Power="6" Flow="423.72" Eff="41.84" />
+      <DataPoint Power="8" Flow="464.22" Eff="50.93" />
+      <DataPoint Power="10" Flow="508.1" Eff="58.16" />
+      <DataPoint Power="12" Flow="554.86" Eff="63.91" />
+      <DataPoint Power="14" Flow="604.08" Eff="68.49" />
+      <DataPoint Power="16" Flow="655.34" Eff="72.15" />
+      <DataPoint Power="18" Flow="708.31" Eff="75.1" />
+      <DataPoint Power="20" Flow="762.69" Eff="77.49" />
+      <DataPoint Power="22" Flow="818.22" Eff="79.46" />
+      <DataPoint Power="24" Flow="874.71" Eff="81.08" />
+      <DataPoint Power="26" Flow="931.99" Eff="82.44" />
+      <DataPoint Power="28" Flow="989.97" Eff="83.58" />
+      <DataPoint Power="30" Flow="1048.57" Eff="84.55" />
+      <DataPoint Power="32" Flow="1107.79" Eff="85.36" />
+      <DataPoint Power="34" Flow="1167.66" Eff="86.05" />
+      <DataPoint Power="36" Flow="1228.27" Eff="86.61" />
+      <DataPoint Power="38" Flow="1289.74" Eff="87.07" />
+      <DataPoint Power="40" Flow="1352.26" Eff="87.41" />
+      <DataPoint Power="42" Flow="1416.05" Eff="87.65" />
+      <DataPoint Power="44" Flow="1481.39" Eff="87.77" />
+      <DataPoint Power="46" Flow="1548.6" Eff="87.78" />
+      <DataPoint Power="48" Flow="1618.04" Eff="87.66" />
+      <DataPoint Power="50" Flow="1690.14" Eff="87.42" />
+      <DataPoint Power="52" Flow="1765.37" Eff="87.04" />
+      <DataPoint Power="54" Flow="1844.22" Eff="86.53" />
+    </SmoothCurves>
+    <Equation Head="400" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="328.104916303097" />
+      <Coefficient Name="B2" Value="12.0793830890782" />
+      <Coefficient Name="B3" Value="0.72636652207053" />
+      <Coefficient Name="B4" Value="-0.0146807392859419" />
+      <Coefficient Name="B5" Value="0.000124359392902704" />
+      <Coefficient Name="R2" Value="0.999998651741651" />
+    </Equation>
+    <SmoothCurves Head="405" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="324.19" Eff="0" />
+      <DataPoint Power="2" Flow="352.13" Eff="16.58" />
+      <DataPoint Power="4" Flow="384.78" Eff="30.34" />
+      <DataPoint Power="6" Flow="421.6" Eff="41.54" />
+      <DataPoint Power="8" Flow="462.04" Eff="50.53" />
+      <DataPoint Power="10" Flow="505.62" Eff="57.72" />
+      <DataPoint Power="12" Flow="551.91" Eff="63.46" />
+      <DataPoint Power="14" Flow="600.51" Eff="68.04" />
+      <DataPoint Power="16" Flow="651.05" Eff="71.73" />
+      <DataPoint Power="18" Flow="703.22" Eff="74.71" />
+      <DataPoint Power="20" Flow="756.75" Eff="77.14" />
+      <DataPoint Power="22" Flow="811.4" Eff="79.13" />
+      <DataPoint Power="24" Flow="867" Eff="80.79" />
+      <DataPoint Power="26" Flow="923.39" Eff="82.18" />
+      <DataPoint Power="28" Flow="980.46" Eff="83.35" />
+      <DataPoint Power="30" Flow="1038.16" Eff="84.34" />
+      <DataPoint Power="32" Flow="1096.47" Eff="85.18" />
+      <DataPoint Power="34" Flow="1155.41" Eff="85.89" />
+      <DataPoint Power="36" Flow="1215.04" Eff="86.47" />
+      <DataPoint Power="38" Flow="1275.47" Eff="86.95" />
+      <DataPoint Power="40" Flow="1336.85" Eff="87.33" />
+      <DataPoint Power="42" Flow="1399.37" Eff="87.6" />
+      <DataPoint Power="44" Flow="1463.27" Eff="87.76" />
+      <DataPoint Power="46" Flow="1528.82" Eff="87.82" />
+      <DataPoint Power="48" Flow="1596.33" Eff="87.76" />
+      <DataPoint Power="50" Flow="1666.18" Eff="87.58" />
+      <DataPoint Power="52" Flow="1738.75" Eff="87.29" />
+      <DataPoint Power="54" Flow="1814.5" Eff="86.86" />
+    </SmoothCurves>
+    <Equation Head="405" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="324.19460836795" />
+      <Coefficient Name="B2" Value="12.6850644426145" />
+      <Coefficient Name="B3" Value="0.666416781523595" />
+      <Coefficient Name="B4" Value="-0.0131630657653108" />
+      <Coefficient Name="B5" Value="0.00010993095881093" />
+      <Coefficient Name="R2" Value="0.99999887893479" />
+    </Equation>
+    <SmoothCurves Head="410" MinPower="0" MaxPower="54" CountPower="28">
+      <DataPoint Power="0" Flow="310.87" Eff="0" />
+      <DataPoint Power="2" Flow="346.75" Eff="16.63" />
+      <DataPoint Power="4" Flow="384.57" Eff="29.99" />
+      <DataPoint Power="6" Flow="424.26" Eff="40.77" />
+      <DataPoint Power="8" Flow="465.77" Eff="49.52" />
+      <DataPoint Power="10" Flow="509.03" Eff="56.64" />
+      <DataPoint Power="12" Flow="553.97" Eff="62.45" />
+      <DataPoint Power="14" Flow="600.54" Eff="67.21" />
+      <DataPoint Power="16" Flow="648.66" Eff="71.11" />
+      <DataPoint Power="18" Flow="698.29" Eff="74.32" />
+      <DataPoint Power="20" Flow="749.35" Eff="76.95" />
+      <DataPoint Power="22" Flow="801.79" Eff="79.11" />
+      <DataPoint Power="24" Flow="855.53" Eff="80.88" />
+      <DataPoint Power="26" Flow="910.52" Eff="82.32" />
+      <DataPoint Power="28" Flow="966.69" Eff="83.51" />
+      <DataPoint Power="30" Flow="1023.99" Eff="84.46" />
+      <DataPoint Power="32" Flow="1082.34" Eff="85.24" />
+      <DataPoint Power="34" Flow="1141.69" Eff="85.86" />
+      <DataPoint Power="36" Flow="1201.97" Eff="86.35" />
+      <DataPoint Power="38" Flow="1263.13" Eff="86.73" />
+      <DataPoint Power="40" Flow="1325.08" Eff="87.03" />
+      <DataPoint Power="42" Flow="1387.79" Eff="87.25" />
+      <DataPoint Power="44" Flow="1451.17" Eff="87.41" />
+      <DataPoint Power="46" Flow="1515.17" Eff="87.53" />
+      <DataPoint Power="48" Flow="1579.73" Eff="87.6" />
+      <DataPoint Power="50" Flow="1644.78" Eff="87.64" />
+      <DataPoint Power="52" Flow="1710.26" Eff="87.66" />
+      <DataPoint Power="54" Flow="1776.1" Eff="87.65" />
+    </SmoothCurves>
+    <Equation Head="410" MinPower="0" MaxPower="54" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3">
+      <Coefficient Name="B1" Value="310.867193447999" />
+      <Coefficient Name="B2" Value="17.4457106202122" />
+      <Coefficient Name="B3" Value="0.250113233438523" />
+      <Coefficient Name="B4" Value="-0.00130926099885817" />
+      <Coefficient Name="R2" Value="0.999908025908749" />
+    </Equation>
+    <SmoothCurves Head="415" MinPower="0" MaxPower="57" CountPower="30">
+      <DataPoint Power="0" Flow="329.9" Eff="0" />
+      <DataPoint Power="2" Flow="356.71" Eff="15.97" />
+      <DataPoint Power="4" Flow="388.05" Eff="29.36" />
+      <DataPoint Power="6" Flow="423.41" Eff="40.36" />
+      <DataPoint Power="8" Flow="462.28" Eff="49.29" />
+      <DataPoint Power="10" Flow="504.22" Eff="56.49" />
+      <DataPoint Power="12" Flow="548.8" Eff="62.28" />
+      <DataPoint Power="14" Flow="595.65" Eff="66.95" />
+      <DataPoint Power="16" Flow="644.42" Eff="70.72" />
+      <DataPoint Power="18" Flow="694.82" Eff="73.79" />
+      <DataPoint Power="20" Flow="746.58" Eff="76.3" />
+      <DataPoint Power="22" Flow="799.47" Eff="78.38" />
+      <DataPoint Power="24" Flow="853.29" Eff="80.11" />
+      <DataPoint Power="26" Flow="907.91" Eff="81.57" />
+      <DataPoint Power="28" Flow="963.2" Eff="82.8" />
+      <DataPoint Power="30" Flow="1019.08" Eff="83.85" />
+      <DataPoint Power="32" Flow="1075.52" Eff="84.74" />
+      <DataPoint Power="34" Flow="1132.52" Eff="85.51" />
+      <DataPoint Power="36" Flow="1190.12" Eff="86.16" />
+      <DataPoint Power="38" Flow="1248.38" Eff="86.7" />
+      <DataPoint Power="40" Flow="1307.42" Eff="87.14" />
+      <DataPoint Power="42" Flow="1367.4" Eff="87.49" />
+      <DataPoint Power="44" Flow="1428.49" Eff="87.73" />
+      <DataPoint Power="46" Flow="1490.93" Eff="87.88" />
+      <DataPoint Power="48" Flow="1554.98" Eff="87.92" />
+      <DataPoint Power="50" Flow="1620.94" Eff="87.86" />
+      <DataPoint Power="52" Flow="1689.15" Eff="87.68" />
+      <DataPoint Power="54" Flow="1759.98" Eff="87.39" />
+      <DataPoint Power="56" Flow="1833.86" Eff="86.98" />
+      <DataPoint Power="57" Flow="1872.08" Eff="86.72" />
+    </SmoothCurves>
+    <Equation Head="415" MinPower="0" MaxPower="57" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="329.90176843004" />
+      <Coefficient Name="B2" Value="12.1744453030648" />
+      <Coefficient Name="B3" Value="0.638103446510874" />
+      <Coefficient Name="B4" Value="-0.0122250245281086" />
+      <Coefficient Name="B5" Value="9.84297759841293E-05" />
+      <Coefficient Name="R2" Value="0.999998782440333" />
+    </Equation>
+    <SmoothCurves Head="420" MinPower="0" MaxPower="57" CountPower="30">
+      <DataPoint Power="0" Flow="333.74" Eff="0" />
+      <DataPoint Power="2" Flow="359.25" Eff="15.67" />
+      <DataPoint Power="4" Flow="389.37" Eff="28.91" />
+      <DataPoint Power="6" Flow="423.55" Eff="39.87" />
+      <DataPoint Power="8" Flow="461.32" Eff="48.81" />
+      <DataPoint Power="10" Flow="502.21" Eff="56.04" />
+      <DataPoint Power="12" Flow="545.81" Eff="61.88" />
+      <DataPoint Power="14" Flow="591.74" Eff="66.59" />
+      <DataPoint Power="16" Flow="639.66" Eff="70.4" />
+      <DataPoint Power="18" Flow="689.26" Eff="73.5" />
+      <DataPoint Power="20" Flow="740.26" Eff="76.04" />
+      <DataPoint Power="22" Flow="792.43" Eff="78.13" />
+      <DataPoint Power="24" Flow="845.58" Eff="79.88" />
+      <DataPoint Power="26" Flow="899.53" Eff="81.35" />
+      <DataPoint Power="28" Flow="954.18" Eff="82.59" />
+      <DataPoint Power="30" Flow="1009.42" Eff="83.64" />
+      <DataPoint Power="32" Flow="1065.21" Eff="84.55" />
+      <DataPoint Power="34" Flow="1121.52" Eff="85.32" />
+      <DataPoint Power="36" Flow="1178.39" Eff="85.98" />
+      <DataPoint Power="38" Flow="1235.86" Eff="86.54" />
+      <DataPoint Power="40" Flow="1294.04" Eff="86.99" />
+      <DataPoint Power="42" Flow="1353.05" Eff="87.36" />
+      <DataPoint Power="44" Flow="1413.05" Eff="87.63" />
+      <DataPoint Power="46" Flow="1474.25" Eff="87.81" />
+      <DataPoint Power="48" Flow="1536.9" Eff="87.9" />
+      <DataPoint Power="50" Flow="1601.26" Eff="87.88" />
+      <DataPoint Power="52" Flow="1667.65" Eff="87.76" />
+      <DataPoint Power="54" Flow="1736.42" Eff="87.52" />
+      <DataPoint Power="56" Flow="1807.95" Eff="87.17" />
+      <DataPoint Power="57" Flow="1844.89" Eff="86.95" />
+    </SmoothCurves>
+    <Equation Head="420" MinPower="0" MaxPower="57" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="333.737814159438" />
+      <Coefficient Name="B2" Value="11.5165370384947" />
+      <Coefficient Name="B3" Value="0.644672807129202" />
+      <Coefficient Name="B4" Value="-0.0121102101296413" />
+      <Coefficient Name="B5" Value="9.50065377733532E-05" />
+      <Coefficient Name="R2" Value="0.999998652053906" />
+    </Equation>
+    <SmoothCurves Head="425" MinPower="0" MaxPower="66" CountPower="34">
+      <DataPoint Power="0" Flow="329.98" Eff="0" />
+      <DataPoint Power="2" Flow="355.79" Eff="15.63" />
+      <DataPoint Power="4" Flow="386.12" Eff="28.81" />
+      <DataPoint Power="6" Flow="420.44" Eff="39.69" />
+      <DataPoint Power="8" Flow="458.26" Eff="48.55" />
+      <DataPoint Power="10" Flow="499.11" Eff="55.72" />
+      <DataPoint Power="12" Flow="542.59" Eff="61.51" />
+      <DataPoint Power="14" Flow="588.3" Eff="66.19" />
+      <DataPoint Power="16" Flow="635.9" Eff="69.98" />
+      <DataPoint Power="18" Flow="685.08" Eff="73.08" />
+      <DataPoint Power="20" Flow="735.58" Eff="75.62" />
+      <DataPoint Power="22" Flow="787.16" Eff="77.73" />
+      <DataPoint Power="24" Flow="839.63" Eff="79.5" />
+      <DataPoint Power="26" Flow="892.82" Eff="80.99" />
+      <DataPoint Power="28" Flow="946.61" Eff="82.27" />
+      <DataPoint Power="30" Flow="1000.93" Eff="83.36" />
+      <DataPoint Power="32" Flow="1055.71" Eff="84.3" />
+      <DataPoint Power="34" Flow="1110.96" Eff="85.12" />
+      <DataPoint Power="36" Flow="1166.7" Eff="85.82" />
+      <DataPoint Power="38" Flow="1222.99" Eff="86.42" />
+      <DataPoint Power="40" Flow="1279.94" Eff="86.92" />
+      <DataPoint Power="42" Flow="1337.69" Eff="87.32" />
+      <DataPoint Power="44" Flow="1396.4" Eff="87.64" />
+      <DataPoint Power="46" Flow="1456.3" Eff="87.85" />
+      <DataPoint Power="48" Flow="1517.63" Eff="87.97" />
+      <DataPoint Power="50" Flow="1580.69" Eff="87.98" />
+      <DataPoint Power="52" Flow="1645.79" Eff="87.88" />
+      <DataPoint Power="54" Flow="1713.31" Eff="87.66" />
+      <DataPoint Power="56" Flow="1783.63" Eff="87.32" />
+      <DataPoint Power="58" Flow="1857.2" Eff="86.86" />
+      <DataPoint Power="60" Flow="1934.49" Eff="86.26" />
+      <DataPoint Power="62" Flow="2016.01" Eff="85.53" />
+      <DataPoint Power="64" Flow="2102.31" Eff="84.67" />
+      <DataPoint Power="66" Flow="2193.98" Eff="83.67" />
+    </SmoothCurves>
+    <Equation Head="425" MinPower="0" MaxPower="66" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="329.979017760264" />
+      <Coefficient Name="B2" Value="11.6828682110054" />
+      <Coefficient Name="B3" Value="0.635619240424661" />
+      <Coefficient Name="B4" Value="-0.0122260464436074" />
+      <Coefficient Name="B5" Value="9.69241470766851E-05" />
+      <Coefficient Name="R2" Value="0.999996479757023" />
+    </Equation>
+    <SmoothCurves Head="430" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="326.28" Eff="0" />
+      <DataPoint Power="2" Flow="353.06" Eff="15.57" />
+      <DataPoint Power="4" Flow="384.02" Eff="28.63" />
+      <DataPoint Power="6" Flow="418.66" Eff="39.4" />
+      <DataPoint Power="8" Flow="456.55" Eff="48.17" />
+      <DataPoint Power="10" Flow="497.25" Eff="55.28" />
+      <DataPoint Power="12" Flow="540.4" Eff="61.04" />
+      <DataPoint Power="14" Flow="585.65" Eff="65.71" />
+      <DataPoint Power="16" Flow="632.67" Eff="69.52" />
+      <DataPoint Power="18" Flow="681.2" Eff="72.64" />
+      <DataPoint Power="20" Flow="730.97" Eff="75.21" />
+      <DataPoint Power="22" Flow="781.79" Eff="77.36" />
+      <DataPoint Power="24" Flow="833.46" Eff="79.16" />
+      <DataPoint Power="26" Flow="885.85" Eff="80.68" />
+      <DataPoint Power="28" Flow="938.83" Eff="81.98" />
+      <DataPoint Power="30" Flow="992.32" Eff="83.11" />
+      <DataPoint Power="32" Flow="1046.29" Eff="84.07" />
+      <DataPoint Power="34" Flow="1100.71" Eff="84.91" />
+      <DataPoint Power="36" Flow="1155.6" Eff="85.64" />
+      <DataPoint Power="38" Flow="1211.02" Eff="86.26" />
+      <DataPoint Power="40" Flow="1267.06" Eff="86.78" />
+      <DataPoint Power="42" Flow="1323.82" Eff="87.21" />
+      <DataPoint Power="44" Flow="1381.48" Eff="87.55" />
+      <DataPoint Power="46" Flow="1440.21" Eff="87.8" />
+      <DataPoint Power="48" Flow="1500.23" Eff="87.95" />
+      <DataPoint Power="50" Flow="1561.8" Eff="88" />
+      <DataPoint Power="52" Flow="1625.21" Eff="87.95" />
+      <DataPoint Power="54" Flow="1690.77" Eff="87.8" />
+      <DataPoint Power="56" Flow="1758.83" Eff="87.52" />
+      <DataPoint Power="58" Flow="1829.8" Eff="87.13" />
+      <DataPoint Power="60" Flow="1904.07" Eff="86.62" />
+      <DataPoint Power="62" Flow="1982.12" Eff="85.99" />
+      <DataPoint Power="64" Flow="2064.42" Eff="85.22" />
+      <DataPoint Power="66" Flow="2151.51" Eff="84.33" />
+      <DataPoint Power="67" Flow="2197.01" Eff="83.83" />
+    </SmoothCurves>
+    <Equation Head="430" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="326.276159768094" />
+      <Coefficient Name="B2" Value="12.2676037054147" />
+      <Coefficient Name="B3" Value="0.585019593377952" />
+      <Coefficient Name="B4" Value="-0.0110724229545461" />
+      <Coefficient Name="B5" Value="8.69841062845079E-05" />
+      <Coefficient Name="R2" Value="0.999996538394145" />
+    </Equation>
+    <SmoothCurves Head="435" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="324.07" Eff="0" />
+      <DataPoint Power="2" Flow="351.55" Eff="15.46" />
+      <DataPoint Power="4" Flow="382.88" Eff="28.39" />
+      <DataPoint Power="6" Flow="417.62" Eff="39.04" />
+      <DataPoint Power="8" Flow="455.38" Eff="47.74" />
+      <DataPoint Power="10" Flow="495.78" Eff="54.81" />
+      <DataPoint Power="12" Flow="538.47" Eff="60.56" />
+      <DataPoint Power="14" Flow="583.14" Eff="65.24" />
+      <DataPoint Power="16" Flow="629.5" Eff="69.07" />
+      <DataPoint Power="18" Flow="677.3" Eff="72.22" />
+      <DataPoint Power="20" Flow="726.31" Eff="74.83" />
+      <DataPoint Power="22" Flow="776.34" Eff="77" />
+      <DataPoint Power="24" Flow="827.22" Eff="78.84" />
+      <DataPoint Power="26" Flow="878.81" Eff="80.39" />
+      <DataPoint Power="28" Flow="931" Eff="81.72" />
+      <DataPoint Power="30" Flow="983.72" Eff="82.87" />
+      <DataPoint Power="32" Flow="1036.92" Eff="83.86" />
+      <DataPoint Power="34" Flow="1090.58" Eff="84.72" />
+      <DataPoint Power="36" Flow="1144.7" Eff="85.46" />
+      <DataPoint Power="38" Flow="1199.35" Eff="86.1" />
+      <DataPoint Power="40" Flow="1254.57" Eff="86.64" />
+      <DataPoint Power="42" Flow="1310.47" Eff="87.09" />
+      <DataPoint Power="44" Flow="1367.19" Eff="87.45" />
+      <DataPoint Power="46" Flow="1424.87" Eff="87.72" />
+      <DataPoint Power="48" Flow="1483.72" Eff="87.91" />
+      <DataPoint Power="50" Flow="1543.94" Eff="88" />
+      <DataPoint Power="52" Flow="1605.79" Eff="87.99" />
+      <DataPoint Power="54" Flow="1669.55" Eff="87.89" />
+      <DataPoint Power="56" Flow="1735.51" Eff="87.68" />
+      <DataPoint Power="58" Flow="1804.03" Eff="87.36" />
+      <DataPoint Power="60" Flow="1875.45" Eff="86.93" />
+      <DataPoint Power="62" Flow="1950.19" Eff="86.39" />
+      <DataPoint Power="64" Flow="2028.67" Eff="85.73" />
+      <DataPoint Power="66" Flow="2111.34" Eff="84.94" />
+      <DataPoint Power="67" Flow="2154.4" Eff="84.51" />
+    </SmoothCurves>
+    <Equation Head="435" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="324.068177539649" />
+      <Coefficient Name="B2" Value="12.7011977133205" />
+      <Coefficient Name="B3" Value="0.538801099483425" />
+      <Coefficient Name="B4" Value="-0.00995611164679244" />
+      <Coefficient Name="B5" Value="7.71720844805687E-05" />
+      <Coefficient Name="R2" Value="0.99999696930731" />
+    </Equation>
+    <SmoothCurves Head="440" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="321.81" Eff="0" />
+      <DataPoint Power="2" Flow="349.92" Eff="15.35" />
+      <DataPoint Power="4" Flow="381.59" Eff="28.16" />
+      <DataPoint Power="6" Flow="416.43" Eff="38.71" />
+      <DataPoint Power="8" Flow="454.07" Eff="47.33" />
+      <DataPoint Power="10" Flow="494.19" Eff="54.36" />
+      <DataPoint Power="12" Flow="536.46" Eff="60.09" />
+      <DataPoint Power="14" Flow="580.6" Eff="64.78" />
+      <DataPoint Power="16" Flow="626.35" Eff="68.62" />
+      <DataPoint Power="18" Flow="673.47" Eff="71.8" />
+      <DataPoint Power="20" Flow="721.77" Eff="74.44" />
+      <DataPoint Power="22" Flow="771.05" Eff="76.65" />
+      <DataPoint Power="24" Flow="821.17" Eff="78.52" />
+      <DataPoint Power="26" Flow="872" Eff="80.1" />
+      <DataPoint Power="28" Flow="923.43" Eff="81.46" />
+      <DataPoint Power="30" Flow="975.4" Eff="82.63" />
+      <DataPoint Power="32" Flow="1027.84" Eff="83.64" />
+      <DataPoint Power="34" Flow="1080.75" Eff="84.51" />
+      <DataPoint Power="36" Flow="1134.12" Eff="85.27" />
+      <DataPoint Power="38" Flow="1187.98" Eff="85.93" />
+      <DataPoint Power="40" Flow="1242.4" Eff="86.49" />
+      <DataPoint Power="42" Flow="1297.45" Eff="86.96" />
+      <DataPoint Power="44" Flow="1353.25" Eff="87.35" />
+      <DataPoint Power="46" Flow="1409.93" Eff="87.65" />
+      <DataPoint Power="48" Flow="1467.65" Eff="87.86" />
+      <DataPoint Power="50" Flow="1526.6" Eff="87.99" />
+      <DataPoint Power="52" Flow="1586.99" Eff="88.03" />
+      <DataPoint Power="54" Flow="1649.08" Eff="87.97" />
+      <DataPoint Power="56" Flow="1713.12" Eff="87.82" />
+      <DataPoint Power="58" Flow="1779.42" Eff="87.56" />
+      <DataPoint Power="60" Flow="1848.28" Eff="87.21" />
+      <DataPoint Power="62" Flow="1920.06" Eff="86.75" />
+      <DataPoint Power="64" Flow="1995.13" Eff="86.18" />
+      <DataPoint Power="66" Flow="2073.9" Eff="85.49" />
+      <DataPoint Power="67" Flow="2114.79" Eff="85.11" />
+    </SmoothCurves>
+    <Equation Head="440" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="321.810997438767" />
+      <Coefficient Name="B2" Value="13.0939030714895" />
+      <Coefficient Name="B3" Value="0.497324355311659" />
+      <Coefficient Name="B4" Value="-0.00897979835613162" />
+      <Coefficient Name="B5" Value="6.8680758009392E-05" />
+      <Coefficient Name="R2" Value="0.9999975714369" />
+    </Equation>
+    <SmoothCurves Head="445" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="326.91" Eff="0" />
+      <DataPoint Power="2" Flow="354.05" Eff="15" />
+      <DataPoint Power="4" Flow="384.74" Eff="27.62" />
+      <DataPoint Power="6" Flow="418.6" Eff="38.07" />
+      <DataPoint Power="8" Flow="455.28" Eff="46.67" />
+      <DataPoint Power="10" Flow="494.44" Eff="53.72" />
+      <DataPoint Power="12" Flow="535.78" Eff="59.49" />
+      <DataPoint Power="14" Flow="579.02" Eff="64.22" />
+      <DataPoint Power="16" Flow="623.89" Eff="68.12" />
+      <DataPoint Power="18" Flow="670.16" Eff="71.35" />
+      <DataPoint Power="20" Flow="717.63" Eff="74.03" />
+      <DataPoint Power="22" Flow="766.12" Eff="76.28" />
+      <DataPoint Power="24" Flow="815.47" Eff="78.18" />
+      <DataPoint Power="26" Flow="865.55" Eff="79.79" />
+      <DataPoint Power="28" Flow="916.25" Eff="81.17" />
+      <DataPoint Power="30" Flow="967.49" Eff="82.37" />
+      <DataPoint Power="32" Flow="1019.21" Eff="83.4" />
+      <DataPoint Power="34" Flow="1071.38" Eff="84.3" />
+      <DataPoint Power="36" Flow="1124" Eff="85.08" />
+      <DataPoint Power="38" Flow="1177.08" Eff="85.75" />
+      <DataPoint Power="40" Flow="1230.66" Eff="86.34" />
+      <DataPoint Power="42" Flow="1284.82" Eff="86.83" />
+      <DataPoint Power="44" Flow="1339.64" Eff="87.24" />
+      <DataPoint Power="46" Flow="1395.25" Eff="87.57" />
+      <DataPoint Power="48" Flow="1451.79" Eff="87.82" />
+      <DataPoint Power="50" Flow="1509.43" Eff="87.99" />
+      <DataPoint Power="52" Flow="1568.36" Eff="88.07" />
+      <DataPoint Power="54" Flow="1628.79" Eff="88.06" />
+      <DataPoint Power="56" Flow="1690.98" Eff="87.97" />
+      <DataPoint Power="58" Flow="1755.19" Eff="87.78" />
+      <DataPoint Power="60" Flow="1821.72" Eff="87.49" />
+      <DataPoint Power="62" Flow="1890.88" Eff="87.1" />
+      <DataPoint Power="64" Flow="1963.01" Eff="86.6" />
+      <DataPoint Power="66" Flow="2038.49" Eff="86" />
+      <DataPoint Power="67" Flow="2077.61" Eff="85.66" />
+    </SmoothCurves>
+    <Equation Head="445" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="326.90964566692" />
+      <Coefficient Name="B2" Value="12.6136621585391" />
+      <Coefficient Name="B3" Value="0.494872759282733" />
+      <Coefficient Name="B4" Value="-0.00874029710726893" />
+      <Coefficient Name="B5" Value="6.51505649702857E-05" />
+      <Coefficient Name="R2" Value="0.999997752633534" />
+    </Equation>
+    <SmoothCurves Head="450" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="329.19" Eff="0" />
+      <DataPoint Power="2" Flow="355.57" Eff="14.77" />
+      <DataPoint Power="4" Flow="385.48" Eff="27.26" />
+      <DataPoint Power="6" Flow="418.57" Eff="37.65" />
+      <DataPoint Power="8" Flow="454.46" Eff="46.24" />
+      <DataPoint Power="10" Flow="492.85" Eff="53.3" />
+      <DataPoint Power="12" Flow="533.43" Eff="59.09" />
+      <DataPoint Power="14" Flow="575.92" Eff="63.85" />
+      <DataPoint Power="16" Flow="620.06" Eff="67.78" />
+      <DataPoint Power="18" Flow="665.64" Eff="71.03" />
+      <DataPoint Power="20" Flow="712.43" Eff="73.74" />
+      <DataPoint Power="22" Flow="760.27" Eff="76.01" />
+      <DataPoint Power="24" Flow="808.98" Eff="77.93" />
+      <DataPoint Power="26" Flow="858.45" Eff="79.56" />
+      <DataPoint Power="28" Flow="908.55" Eff="80.95" />
+      <DataPoint Power="30" Flow="959.2" Eff="82.15" />
+      <DataPoint Power="32" Flow="1010.34" Eff="83.2" />
+      <DataPoint Power="34" Flow="1061.93" Eff="84.1" />
+      <DataPoint Power="36" Flow="1113.95" Eff="84.89" />
+      <DataPoint Power="38" Flow="1166.4" Eff="85.58" />
+      <DataPoint Power="40" Flow="1219.34" Eff="86.17" />
+      <DataPoint Power="42" Flow="1272.8" Eff="86.68" />
+      <DataPoint Power="44" Flow="1326.87" Eff="87.1" />
+      <DataPoint Power="46" Flow="1381.66" Eff="87.45" />
+      <DataPoint Power="48" Flow="1437.29" Eff="87.72" />
+      <DataPoint Power="50" Flow="1493.91" Eff="87.91" />
+      <DataPoint Power="52" Flow="1551.7" Eff="88.03" />
+      <DataPoint Power="54" Flow="1610.86" Eff="88.05" />
+      <DataPoint Power="56" Flow="1671.6" Eff="88" />
+      <DataPoint Power="58" Flow="1734.19" Eff="87.85" />
+      <DataPoint Power="60" Flow="1798.88" Eff="87.61" />
+      <DataPoint Power="62" Flow="1865.98" Eff="87.28" />
+      <DataPoint Power="64" Flow="1935.8" Eff="86.84" />
+      <DataPoint Power="66" Flow="2008.68" Eff="86.31" />
+      <DataPoint Power="67" Flow="2046.38" Eff="86" />
+    </SmoothCurves>
+    <Equation Head="450" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="329.185614854701" />
+      <Coefficient Name="B2" Value="12.2409015933473" />
+      <Coefficient Name="B3" Value="0.491472744466302" />
+      <Coefficient Name="B4" Value="-0.00851163481552913" />
+      <Coefficient Name="B5" Value="6.20720945653005E-05" />
+      <Coefficient Name="R2" Value="0.99999768608975" />
+    </Equation>
+    <SmoothCurves Head="455" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="325.23" Eff="0" />
+      <DataPoint Power="2" Flow="352.66" Eff="14.73" />
+      <DataPoint Power="4" Flow="383.28" Eff="27.11" />
+      <DataPoint Power="6" Flow="416.79" Eff="37.4" />
+      <DataPoint Power="8" Flow="452.86" Eff="45.89" />
+      <DataPoint Power="10" Flow="491.21" Eff="52.89" />
+      <DataPoint Power="12" Flow="531.57" Eff="58.65" />
+      <DataPoint Power="14" Flow="573.69" Eff="63.4" />
+      <DataPoint Power="16" Flow="617.36" Eff="67.33" />
+      <DataPoint Power="18" Flow="662.36" Eff="70.6" />
+      <DataPoint Power="20" Flow="708.52" Eff="73.33" />
+      <DataPoint Power="22" Flow="755.67" Eff="75.63" />
+      <DataPoint Power="24" Flow="803.67" Eff="77.58" />
+      <DataPoint Power="26" Flow="852.39" Eff="79.24" />
+      <DataPoint Power="28" Flow="901.75" Eff="80.67" />
+      <DataPoint Power="30" Flow="951.65" Eff="81.9" />
+      <DataPoint Power="32" Flow="1002.04" Eff="82.96" />
+      <DataPoint Power="34" Flow="1052.89" Eff="83.89" />
+      <DataPoint Power="36" Flow="1104.18" Eff="84.7" />
+      <DataPoint Power="38" Flow="1155.9" Eff="85.4" />
+      <DataPoint Power="40" Flow="1208.09" Eff="86.02" />
+      <DataPoint Power="42" Flow="1260.79" Eff="86.54" />
+      <DataPoint Power="44" Flow="1314.07" Eff="86.99" />
+      <DataPoint Power="46" Flow="1368.02" Eff="87.35" />
+      <DataPoint Power="48" Flow="1422.73" Eff="87.65" />
+      <DataPoint Power="50" Flow="1478.35" Eff="87.86" />
+      <DataPoint Power="52" Flow="1535.03" Eff="88" />
+      <DataPoint Power="54" Flow="1592.92" Eff="88.07" />
+      <DataPoint Power="56" Flow="1652.24" Eff="88.05" />
+      <DataPoint Power="58" Flow="1713.17" Eff="87.95" />
+      <DataPoint Power="60" Flow="1775.97" Eff="87.77" />
+      <DataPoint Power="62" Flow="1840.89" Eff="87.49" />
+      <DataPoint Power="64" Flow="1908.19" Eff="87.13" />
+      <DataPoint Power="66" Flow="1978.18" Eff="86.68" />
+      <DataPoint Power="67" Flow="2014.28" Eff="86.41" />
+    </SmoothCurves>
+    <Equation Head="455" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3+B5*x^4">
+      <Coefficient Name="B1" Value="325.230967004236" />
+      <Coefficient Name="B2" Value="12.8542059094607" />
+      <Coefficient Name="B3" Value="0.443984428550052" />
+      <Coefficient Name="B4" Value="-0.00750851210173233" />
+      <Coefficient Name="B5" Value="5.4242628773662E-05" />
+      <Coefficient Name="R2" Value="0.999997998426329" />
+    </Equation>
+    <SmoothCurves Head="460" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="309.62" Eff="0" />
+      <DataPoint Power="2" Flow="344.81" Eff="14.9" />
+      <DataPoint Power="4" Flow="381.04" Eff="26.97" />
+      <DataPoint Power="6" Flow="418.27" Eff="36.86" />
+      <DataPoint Power="8" Flow="456.51" Eff="45.03" />
+      <DataPoint Power="10" Flow="495.74" Eff="51.83" />
+      <DataPoint Power="12" Flow="535.94" Eff="57.54" />
+      <DataPoint Power="14" Flow="577.1" Eff="62.34" />
+      <DataPoint Power="16" Flow="619.21" Eff="66.4" />
+      <DataPoint Power="18" Flow="662.26" Eff="69.84" />
+      <DataPoint Power="20" Flow="706.23" Eff="72.77" />
+      <DataPoint Power="22" Flow="751.1" Eff="75.27" />
+      <DataPoint Power="24" Flow="796.87" Eff="77.39" />
+      <DataPoint Power="26" Flow="843.52" Eff="79.2" />
+      <DataPoint Power="28" Flow="891.03" Eff="80.75" />
+      <DataPoint Power="30" Flow="939.4" Eff="82.06" />
+      <DataPoint Power="32" Flow="988.61" Eff="83.18" />
+      <DataPoint Power="34" Flow="1038.65" Eff="84.12" />
+      <DataPoint Power="36" Flow="1089.5" Eff="84.91" />
+      <DataPoint Power="38" Flow="1141.15" Eff="85.57" />
+      <DataPoint Power="40" Flow="1193.58" Eff="86.12" />
+      <DataPoint Power="42" Flow="1246.8" Eff="86.56" />
+      <DataPoint Power="44" Flow="1300.77" Eff="86.92" />
+      <DataPoint Power="46" Flow="1355.48" Eff="87.2" />
+      <DataPoint Power="48" Flow="1410.93" Eff="87.42" />
+      <DataPoint Power="50" Flow="1467.1" Eff="87.58" />
+      <DataPoint Power="52" Flow="1523.98" Eff="87.68" />
+      <DataPoint Power="54" Flow="1581.54" Eff="87.74" />
+      <DataPoint Power="56" Flow="1639.79" Eff="87.75" />
+      <DataPoint Power="58" Flow="1698.7" Eff="87.74" />
+      <DataPoint Power="60" Flow="1758.27" Eff="87.69" />
+      <DataPoint Power="62" Flow="1818.47" Eff="87.61" />
+      <DataPoint Power="64" Flow="1879.3" Eff="87.51" />
+      <DataPoint Power="66" Flow="1940.74" Eff="87.39" />
+      <DataPoint Power="67" Flow="1971.69" Eff="87.32" />
+    </SmoothCurves>
+    <Equation Head="460" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2+B4*x^3">
+      <Coefficient Name="B1" Value="309.619317875441" />
+      <Coefficient Name="B2" Value="17.3376171930322" />
+      <Coefficient Name="B3" Value="0.130230221931125" />
+      <Coefficient Name="B4" Value="-0.000279804986864134" />
+      <Coefficient Name="R2" Value="0.999900795253891" />
+    </Equation>
+    <SmoothCurves Head="465" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="303.88" Eff="0" />
+      <DataPoint Power="2" Flow="340.45" Eff="14.93" />
+      <DataPoint Power="4" Flow="377.79" Eff="26.91" />
+      <DataPoint Power="6" Flow="415.91" Eff="36.67" />
+      <DataPoint Power="8" Flow="454.8" Eff="44.71" />
+      <DataPoint Power="10" Flow="494.46" Eff="51.41" />
+      <DataPoint Power="12" Flow="534.89" Eff="57.03" />
+      <DataPoint Power="14" Flow="576.1" Eff="61.77" />
+      <DataPoint Power="16" Flow="618.08" Eff="65.8" />
+      <DataPoint Power="18" Flow="660.84" Eff="69.24" />
+      <DataPoint Power="20" Flow="704.36" Eff="72.18" />
+      <DataPoint Power="22" Flow="748.66" Eff="74.7" />
+      <DataPoint Power="24" Flow="793.74" Eff="76.86" />
+      <DataPoint Power="26" Flow="839.58" Eff="78.72" />
+      <DataPoint Power="28" Flow="886.2" Eff="80.32" />
+      <DataPoint Power="30" Flow="933.6" Eff="81.68" />
+      <DataPoint Power="32" Flow="981.76" Eff="82.86" />
+      <DataPoint Power="34" Flow="1030.7" Eff="83.85" />
+      <DataPoint Power="36" Flow="1080.41" Eff="84.7" />
+      <DataPoint Power="38" Flow="1130.9" Eff="85.42" />
+      <DataPoint Power="40" Flow="1182.16" Eff="86.01" />
+      <DataPoint Power="42" Flow="1234.19" Eff="86.51" />
+      <DataPoint Power="44" Flow="1286.99" Eff="86.91" />
+      <DataPoint Power="46" Flow="1340.57" Eff="87.23" />
+      <DataPoint Power="48" Flow="1394.92" Eff="87.47" />
+      <DataPoint Power="50" Flow="1450.04" Eff="87.65" />
+      <DataPoint Power="52" Flow="1505.94" Eff="87.78" />
+      <DataPoint Power="54" Flow="1562.61" Eff="87.85" />
+      <DataPoint Power="56" Flow="1620.05" Eff="87.87" />
+      <DataPoint Power="58" Flow="1678.26" Eff="87.85" />
+      <DataPoint Power="60" Flow="1737.25" Eff="87.79" />
+      <DataPoint Power="62" Flow="1797.01" Eff="87.7" />
+      <DataPoint Power="64" Flow="1857.55" Eff="87.58" />
+      <DataPoint Power="66" Flow="1918.86" Eff="87.43" />
+      <DataPoint Power="67" Flow="1949.8" Eff="87.35" />
+    </SmoothCurves>
+    <Equation Head="465" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2">
+      <Coefficient Name="B1" Value="303.87878700444" />
+      <Coefficient Name="B2" Value="18.0916476091114" />
+      <Coefficient Name="B3" Value="0.0966318718002804" />
+      <Coefficient Name="R2" Value="0.999905381639153" />
+    </Equation>
+    <SmoothCurves Head="470" MinPower="0" MaxPower="67" CountPower="35">
+      <DataPoint Power="0" Flow="305.64" Eff="0" />
+      <DataPoint Power="2" Flow="341.89" Eff="14.71" />
+      <DataPoint Power="4" Flow="378.89" Eff="26.55" />
+      <DataPoint Power="6" Flow="416.63" Eff="36.22" />
+      <DataPoint Power="8" Flow="455.11" Eff="44.21" />
+      <DataPoint Power="10" Flow="494.34" Eff="50.88" />
+      <DataPoint Power="12" Flow="534.31" Eff="56.48" />
+      <DataPoint Power="14" Flow="575.02" Eff="61.23" />
+      <DataPoint Power="16" Flow="616.48" Eff="65.27" />
+      <DataPoint Power="18" Flow="658.68" Eff="68.73" />
+      <DataPoint Power="20" Flow="701.62" Eff="71.69" />
+      <DataPoint Power="22" Flow="745.31" Eff="74.24" />
+      <DataPoint Power="24" Flow="789.73" Eff="76.43" />
+      <DataPoint Power="26" Flow="834.9" Eff="78.32" />
+      <DataPoint Power="28" Flow="880.82" Eff="79.95" />
+      <DataPoint Power="30" Flow="927.47" Eff="81.35" />
+      <DataPoint Power="32" Flow="974.87" Eff="82.55" />
+      <DataPoint Power="34" Flow="1023.02" Eff="83.58" />
+      <DataPoint Power="36" Flow="1071.9" Eff="84.47" />
+      <DataPoint Power="38" Flow="1121.53" Eff="85.21" />
+      <DataPoint Power="40" Flow="1171.9" Eff="85.84" />
+      <DataPoint Power="42" Flow="1223.02" Eff="86.37" />
+      <DataPoint Power="44" Flow="1274.87" Eff="86.8" />
+      <DataPoint Power="46" Flow="1327.47" Eff="87.15" />
+      <DataPoint Power="48" Flow="1380.82" Eff="87.43" />
+      <DataPoint Power="50" Flow="1434.9" Eff="87.64" />
+      <DataPoint Power="52" Flow="1489.73" Eff="87.79" />
+      <DataPoint Power="54" Flow="1545.3" Eff="87.88" />
+      <DataPoint Power="56" Flow="1601.62" Eff="87.93" />
+      <DataPoint Power="58" Flow="1658.68" Eff="87.94" />
+      <DataPoint Power="60" Flow="1716.48" Eff="87.91" />
+      <DataPoint Power="62" Flow="1775.02" Eff="87.85" />
+      <DataPoint Power="64" Flow="1834.31" Eff="87.75" />
+      <DataPoint Power="66" Flow="1894.34" Eff="87.62" />
+      <DataPoint Power="67" Flow="1924.63" Eff="87.55" />
+    </SmoothCurves>
+    <Equation Head="470" MinPower="0" MaxPower="67" x="Power" Y="Flow" Value="Y=B1+B2*x+B3*x^2">
+      <Coefficient Name="B1" Value="305.636796627807" />
+      <Coefficient Name="B2" Value="17.9417963628027" />
+      <Coefficient Name="B3" Value="0.0928707370612731" />
+      <Coefficient Name="R2" Value="0.999901586821222" />
+    </Equation>
+  </Unit>
+</OptScreensEfficiencyTableDoc>
