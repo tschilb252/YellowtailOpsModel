@@ -16,11 +16,11 @@ if __name__ == '__main__':
         i = i + 1
         for curve in tree.iterfind(".//SmoothCurves"):
             for point in curve.iterfind(".//DataPoint"):
-                if (np.float(point.attrib['Power']) == 0):
-                    df_all.loc[i] = [np.float(curve.attrib['Head']), 0, 0, 0]
+                if (float(point.attrib['Power']) == 0):
+                    df_all.loc[i] = [float(curve.attrib['Head']), 0, 0, 0]
                 else:
-                    df_all.loc[i] = [np.float(curve.attrib['Head']), np.float(point.attrib['Flow']),
-                                     np.float(point.attrib['Power']), np.float(point.attrib['Eff'])]
+                    df_all.loc[i] = [float(curve.attrib['Head']), float(point.attrib['Flow']),
+                                     float(point.attrib['Power']), float(point.attrib['Eff'])]
                 i = i + 1
         df_all = df_all.apply(pd.to_numeric, errors='coerce')
         fname = file.split('.xml')[0] + ".csv"
